@@ -10,4 +10,4 @@
 ;
 ;********************************************************
 
-A perl file which generates an Hewlet Packard Graphics Language file consisting of lines drawn between 0 & 100 random points. Originally programmed as a "Hello World" file in order to test my HP7476A pen plotter.
+A perl file which generates a Hewlet Packard Graphics Language file consisting of lines drawn between 0 & 100 random points. Originally programmed as a "Hello World" file in order to test my HP7476A pen plotter.
