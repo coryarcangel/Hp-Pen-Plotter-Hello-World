@@ -1,4 +1,4 @@
-open (OUTFILE, ">test4.hpg") || die "Can't oupen output file.\n";
+open (OUTFILE, ">Hello-World.hpg") || die "Can't oupen output file.\n";
 
 my $range = 100;
 my $random_number_points = int(rand($range));
