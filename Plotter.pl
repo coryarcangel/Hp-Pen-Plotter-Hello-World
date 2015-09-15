@@ -1,4 +1,4 @@
-open (OUTFILE, ">Hello-World.hpgl") || die "Can't oupen output file.\n";~\footnotemark[1]~~\footnotemark[2]~
+open (OUTFILE, ">Hello-World.hpgl") || die "Can't oupen output file.\n";
 
 my $range = 100;
 my $random_number_points = int(rand($range));
@@ -18,7 +18,7 @@ my $random_number_2 = int(rand($range));
 print OUTFILE "PD$random_number,$random_number_2\n";
 }
 print OUTFILE "SP0\n";
-print OUTFILE "PG\n";~\footnotemark[2]~
+print OUTFILE "PG\n";
 
 #
 #
